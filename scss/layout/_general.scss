@@ -12,7 +12,7 @@
     }
 }
 @media (max-width: 740px){
-    .nav--header{
+    .nav-desktop{
         display: none;
     }
     .nav-toggle{
@@ -20,13 +20,13 @@
     }
 }
 @media (min-width: 740px){
-    .nav--header{
+    .nav-desktop{
         display: block;
     }
     .nav-toggle{
         display: none;
     }
-    .nav--mobile-header{
+    .nav-mobile{
         display: none;
     }
 }
@@ -65,6 +65,6 @@
     margin-top: 1em;
 }
 
-.p-copyright{
+.footer__p-copyright{
     text-align: center;
 }

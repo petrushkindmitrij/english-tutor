@@ -38,7 +38,7 @@
       
   }
 
-.nav-toggle__check:checked ~ .nav--mobile-header{
+.nav-toggle__check:checked ~ .nav-mobile{
     transform: scale(1, 1);
     // display: flex;
 }
