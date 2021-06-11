@@ -1,0 +1,44 @@
+.nav-toggle{
+    // float: right;
+
+    // display: flex;
+    align-items: center;
+    gap: 0.5ch;
+
+    height: 100%;
+    padding-right: 1em;
+
+    cursor: pointer;
+
+    &__check{
+        display: none;
+    }
+
+    &__icon{
+        height: 1em;
+        width: 1em;
+    }
+
+    &__name{
+        display: inline-block;
+
+        // transform: translateY(0.06em);
+    }
+
+}
+
+.nav-toggle:hover .nav-toggle{
+      &__icon{
+        fill: $clr-brown;
+      }
+
+      &__name{
+        color: $clr-brown;
+      }
+      
+  }
+
+.nav-toggle__check:checked ~ .nav--mobile-header{
+    transform: scale(1, 1);
+    // display: flex;
+}

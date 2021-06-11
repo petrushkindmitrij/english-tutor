@@ -1,0 +1,23 @@
+@import 'scss/abstracts/colors';
+@import 'scss/abstracts/typography';
+// @import 'abstracts/mixins';
+
+
+@import 'scss/base/typography';
+
+
+@import 'scss/layout/general';
+@import 'scss/layout/header';
+@import 'scss/layout/hero';
+@import 'scss/layout/about-me';
+@import 'scss/layout/my-features';
+@import 'scss/layout/lessons';
+@import 'scss/layout/contacts';
+@import 'scss/layout/footer';
+
+
+@import 'scss/components/icon';
+@import 'scss/components/plate-on-photo';
+@import 'scss/components/ul';
+@import 'scss/components/nav';
+@import 'scss/components/nav-toggle';

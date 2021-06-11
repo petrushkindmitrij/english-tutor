@@ -1,0 +1,31 @@
+.icon{    
+
+    &--features{
+        display: block;
+        overflow: visible;
+
+        height: 5.625em;
+        width: 5.625em;        
+        
+        background-color: $clr-light-gray;
+        border: 1.4em solid  $clr-light-gray;
+        border-radius: 50%;
+
+        fill: $clr-brown;
+    }
+
+    &--social{
+        display: block;
+        overflow: visible;  
+
+        height: 3.625em;
+        width: 3.625em;
+
+        border-radius: 50%;
+    
+        *{
+            fill: $clr-brown;
+        }
+        
+    }
+}

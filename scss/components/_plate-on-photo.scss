@@ -1,0 +1,54 @@
+.plate-on-photo{
+    position: absolute;
+
+    width: 6.6em;
+
+    padding: 0.9375em;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: $clr-white;
+
+    background-color: $clr-brown;
+    outline:  $clr-white dashed 0.0625em;
+    outline-offset: -0.5em;
+
+    &__icon{
+        display: block;
+        
+        height: 2.4em;
+        width: 2.4em;
+    
+        fill: $clr-white;
+
+        overflow: visible;
+
+    }
+
+    &__number{
+        height: 1.3em;
+        position: relative;
+        top: -0.40em;
+
+        font-size: 2rem;
+        font-weight: $fw-for-logo;        
+    }
+
+    &__text{
+        font-size: 0.75em;
+        line-height: 1.2;
+    }
+
+    &--lessons{
+        top: 50%;
+        transform: translateY(-50%);
+        right: -1rem;
+    }
+
+}

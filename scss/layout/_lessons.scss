@@ -1,0 +1,124 @@
+.section--lessons{
+    position: relative;
+    
+    z-index: 2;
+    background: url("../images/letter-start-now.jpg") center;
+    background-size: cover;
+    background-color: white;
+    opacity: 1;
+}
+
+.lessons{
+
+    &__container{
+        z-index: 2;
+        
+        // display: flex;
+        // flex-flow: row wrap;
+        // align-items: stretch;
+        // justify-content: stretch;
+        // gap: 2em;
+    }
+    &__features{
+        // flex: 1 1 50ch;
+
+        display: flex;
+        flex-flow: row wrap;    
+        align-items: stretch;    
+        justify-content: stretch;    
+        gap: 1.5em;
+
+        height: 100%;
+        padding: 1.0em;
+    
+        &__li{
+            flex: 1 1 calc((80ch - 100%) * 999);
+
+            padding: 0;
+            // margin: 1em 0;
+            height: 100%;
+            width: 100%;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 1em;
+
+            // *{
+            //     margin-bottom: auto;
+            // }
+        }       
+            
+    }
+
+    &__container-photo{
+        // flex: 1 1 50ch;
+
+        // width: 100%;
+        width: 100%;
+        height: clamp(30ch, 50vw, 50ch);
+
+        position: relative;
+        // margin: auto 0;
+        // padding: auto 0; 
+        padding: 1em; 
+    }
+
+    &__photo{
+        height: 100%;
+        width:  100%;
+        
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    &__container-description{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: stretch;
+        gap: 2em;
+
+        width: 100%;
+        padding: 1em;
+        padding-left: 2em;
+    }
+
+    &__description{
+        flex: 1 1 calc((70ch - 100%) * 999); 
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        // align-items: flex-start;
+        // ul{
+        //     justify-self: flex-start;
+        // }
+
+
+        p{
+            // display: block;
+            padding-top: 0.3em;
+            margin-top: auto;
+            justify-self: flex-end;
+        }
+    }
+}
+
+.container-head-and-text{
+    flex: 1 1 20ch;
+    // margin-left: 1em;
+}
+
+// Для создания фона 
+.overlay{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #fff;
+    opacity: .95;
+}

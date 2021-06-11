@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-flow: column wrap;
+    
+    align-items: center;
+
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    
+    color: $clr-white;
+    background-color: $clr-black;
+
+    .p-copyright{
+        color: $clr-gray;        
+    }
+}

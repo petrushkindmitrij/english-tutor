@@ -1,0 +1,37 @@
+.section--hero{
+    
+    padding-top: 3.5rem;
+    padding-bottom: 0rem;
+    min-height: calc(clamp(30em, calc(100vh - 3.5em), 60em));
+    
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 740px){
+        justify-content: center;
+        text-align: center;
+    }
+    @media (min-width: 740px){
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    background-image: url("../images//workspace.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero{
+
+    &__text-container{    
+        max-width: 50ch;        
+        padding: 1em 1em;
+
+        background-color: $clr-white;
+        opacity: 0.9;
+    }
+
+    &__description{
+        text-align: left;
+    }
+}

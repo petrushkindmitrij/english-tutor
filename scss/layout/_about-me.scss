@@ -1,0 +1,51 @@
+
+
+.information-of-me{
+    &__container{
+        width: 100%;
+
+        display: flex;
+        flex-flow: row wrap;
+    }    
+
+    &__my-education{
+        flex: 1 1 30ch;
+        
+        padding: 1em;
+        padding-left: 2em;
+    }
+}
+
+.my-photo{
+    flex: 1 1 26ch;
+
+    position: relative;
+
+    margin: 1.0em;    
+    
+    &__image{
+        width: 100%;    
+        object-fit: cover;
+    }
+ 
+    &__table{
+        position: absolute;
+        
+        min-width: 20ch;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 1em);
+
+        padding: 0.5em;
+
+        background: $clr-brown;
+        border-radius: 0.3em;
+
+        &__text{
+            text-align: center;
+            line-height: 1.2;
+
+            color: $clr-white;
+        }
+    }
+}
